@@ -12,8 +12,11 @@ Challenge:
     Think: What changes will you need to make to get this to work?
 */
 
+const destinations = getDataFromDB();
+
   if (req.url === '/api' && req.method === 'GET') {
-    res.end('This is from the server')
+    res.send(JSON.stringify(destinations));
+    res.end();
   }
 })
 
