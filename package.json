@@ -5,8 +5,8 @@
   "main": "server.js",
   "type": "module",
   "scripts": {
-    "start": "node server.js"
+    "start": "node --watch server.js"
   },
-  "author": "Tom Chant",
+  "author": "God'swill Sekav Apya",
   "license": "ISC"
 }
